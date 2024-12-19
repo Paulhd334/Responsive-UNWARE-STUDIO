@@ -252,9 +252,10 @@ img {
         -ms-flex-align: center;
             align-items: center;
   }
-  .nav__img img {
-    width: 26px;
-  }
+ .nav__img img {
+  width: 80%; /* Ajuste la largeur de l'image à 80% de son conteneur */
+  height: auto; /* Maintient le ratio de l'image */
+}
   .nav__list {
     display: -webkit-box;
     display: -ms-flexbox;
