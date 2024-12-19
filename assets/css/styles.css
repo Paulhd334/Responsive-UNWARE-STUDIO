@@ -147,9 +147,18 @@ img {
   overflow: hidden;
 }
 
-.nav__img img {
-  width: 46px;
+.nav__img {
+  width: 100px; /* Ajuste la largeur du conteneur */
+  height: 100px; /* Ajuste la hauteur du conteneur */
+  padding: 0; /* Si tu as un padding qui réduit la taille, supprime-le */
+  background-color: var(--first-color); /* Si tu veux une couleur de fond */
+  border-radius: 50%; /* Pour un cercle autour de l'image */
+  overflow: hidden; /* Assure que l'image ne dépasse pas */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .nav__name {
   display: block;
